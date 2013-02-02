@@ -1,5 +1,6 @@
 package POE::Component::IRC::Plugin::Vim::Tips;
 
+use 5.006;
 use strict;
 use warnings;
 
