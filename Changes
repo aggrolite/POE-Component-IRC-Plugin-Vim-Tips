@@ -1,5 +1,8 @@
 {{$NEXT}}
 
+0.07  2013-05-28 07:30:36 PDT
+        Rename module as POE::Component::IRC::Plugin::WWW::Vim::Tips
+
 0.06    2013-04-25
         Forgot to bump version in POD
 
