@@ -1,4 +1,4 @@
-package POE::Component::IRC::Plugin::Vim::Tips;
+package POE::Component::IRC::Plugin::WWW::Vim::Tips;
 
 use 5.006;
 use strict;
@@ -67,7 +67,7 @@ __END__
 
 =head1 NAME
 
-POE::Component::IRC::Plugin::Vim::Tips - IRC plugin to fetch Vim tips
+POE::Component::IRC::Plugin::WWW::Vim::Tips - IRC plugin to fetch Vim tips
 
 =head1 VERSION
 
@@ -79,7 +79,7 @@ Version 0.06
     use strict;
     use warnings;
 
-    use POE qw(Component::IRC  Component::IRC::Plugin::Vim::Tips);
+    use POE qw(Component::IRC  Component::IRC::Plugin::WWW::Vim::Tips);
 
     my $irc = POE::Component::IRC->spawn(
         nick    => 'nickname',
@@ -95,7 +95,7 @@ Version 0.06
     sub _start {
         $irc->yield(register => 'all');
 
-        $irc->plugin_add('Vim-Tips' => POE::Component::IRC::Plugin::Vim::Tips->new);
+        $irc->plugin_add('Vim-Tips' => POE::Component::IRC::Plugin::WWW::Vim::Tips->new);
 
         $irc->yield(connect => {});
     }
@@ -116,7 +116,7 @@ Curtis Brandt, C<< <curtis at cpan.org> >>
 =head1 BUGS
 
 Please report any bugs or feature requests to C<bug-poe-component-irc-plugin-vimtips at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=POE-Component-IRC-Plugin-Vim-Tips>.  I will be notified, and then you'll
+the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=POE-Component-IRC-Plugin-WWW-Vim-Tips>.  I will be notified, and then you'll
 automatically be notified of progress on your bug as I make changes.
 
 
@@ -126,7 +126,7 @@ automatically be notified of progress on your bug as I make changes.
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc POE::Component::IRC::Plugin::Vim::Tips
+    perldoc POE::Component::IRC::Plugin::WWW::Vim::Tips
 
 
 You can also look for information at:
@@ -135,19 +135,19 @@ You can also look for information at:
 
 =item * RT: CPAN's request tracker (report bugs here)
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=POE-Component-IRC-Plugin-Vim-Tips>
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=POE-Component-IRC-Plugin-WWW-Vim-Tips>
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
-L<http://annocpan.org/dist/POE-Component-IRC-Plugin-Vim-Tips>
+L<http://annocpan.org/dist/POE-Component-IRC-Plugin-WWW-Vim-Tips>
 
 =item * CPAN Ratings
 
-L<http://cpanratings.perl.org/d/POE-Component-IRC-Plugin-Vim-Tips>
+L<http://cpanratings.perl.org/d/POE-Component-IRC-Plugin-WWW-Vim-Tips>
 
 =item * Search CPAN
 
-L<http://search.cpan.org/dist/POE-Component-IRC-Plugin-Vim-Tips/>
+L<http://search.cpan.org/dist/POE-Component-IRC-Plugin-WWW-Vim-Tips/>
 
 =back
 

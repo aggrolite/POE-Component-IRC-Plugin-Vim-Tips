@@ -3,7 +3,7 @@
 use Test::More tests => 1;
 
 BEGIN {
-    use_ok( 'POE::Component::IRC::Plugin::Vim::Tips' ) || print "Bail out!\n";
+    use_ok( 'POE::Component::IRC::Plugin::WWW::Vim::Tips' ) || print "Bail out!\n";
 }
 
-diag( "Testing POE::Component::IRC::Plugin::Vim::Tips $POE::Component::IRC::Plugin::Vim::Tips::VERSION, Perl $], $^X" );
+diag( "Testing POE::Component::IRC::Plugin::WWW::Vim::Tips $POE::Component::IRC::Plugin::WWW::Vim::Tips::VERSION, Perl $], $^X" );
