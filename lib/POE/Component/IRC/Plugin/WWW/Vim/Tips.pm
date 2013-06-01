@@ -69,10 +69,6 @@ __END__
 
 POE::Component::IRC::Plugin::WWW::Vim::Tips - IRC plugin to fetch Vim tips
 
-=head1 VERSION
-
-Version 0.06
-
 
 =head1 SYNOPSIS
 

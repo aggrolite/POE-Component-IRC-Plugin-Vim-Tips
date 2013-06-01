@@ -2,10 +2,6 @@
 
 POE::Component::IRC::Plugin::WWW::Vim::Tips - IRC plugin to fetch Vim tips
 
-# VERSION
-
-Version 0.06
-
 
 
 # SYNOPSIS
