@@ -51,13 +51,13 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-Vim-Tips/issues"
+         "web" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-WWW-Vim-Tips/issues"
       },
-      "homepage" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-Vim-Tips",
+      "homepage" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-WWW-Vim-Tips",
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-Vim-Tips.git",
-         "web" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-Vim-Tips"
+         "url" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-WWW-Vim-Tips.git",
+         "web" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-WWW-Vim-Tips"
       }
    },
    "version" : "0.07",
