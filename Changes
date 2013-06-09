@@ -1,4 +1,5 @@
 {{$NEXT}}
+        use Perl 5.8, not 5.6 / remove my name from contributers
 
 0.08  2013-06-01 10:57:54 PDT
         Update external links and remove version from POD
