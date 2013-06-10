@@ -1,4 +1,5 @@
 {{$NEXT}}
+        replace tests with basic.t. TODO: write tests
 
 0.10  2013-06-09 00:04:12 PDT
         Update 00-load.t to use all prereq modules...will it help?
