@@ -4,7 +4,7 @@ use 5.008_005;
 use strict;
 use warnings;
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 use POE::Component::IRC::Plugin qw( :ALL );
 use Mojo::JSON;
