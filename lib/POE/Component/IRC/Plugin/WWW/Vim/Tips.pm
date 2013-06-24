@@ -104,6 +104,10 @@ POE::Component::IRC::Plugin::WWW::Vim::Tips - IRC plugin to fetch Vim tips
 
 type !vimtip or !vimtips to get a random Vim tip, currenly fetched from L<http://twitter.com/vimtips>
 
+here is a cool one-liner if you just want the Vim tip:
+
+    perl -Ilib -MPOE::Component::IRC::Plugin::WWW::Vim::Tips
+         -le 'print POE::Component::IRC::Plugin::WWW::Vim::Tips->new->_get_vim_tip'
 
 =head1 AUTHOR
 
