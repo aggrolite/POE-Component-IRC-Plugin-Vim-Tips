@@ -60,7 +60,7 @@
          "web" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-WWW-Vim-Tips"
       }
    },
-   "version" : "0.12",
+   "version" : "0.13",
    "x_contributors" : [
       "Curtis Brandt <curtisjbrandt@gmail.com>"
    ]

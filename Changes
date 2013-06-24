@@ -1,5 +1,9 @@
 {{$NEXT}}
 
+0.13  2013-06-24 10:35:08 PDT
+        remove vim tip check from test
+        add one liner to POD
+
 0.12  2013-06-17 14:41:23 PDT
         add vim.t test
 
