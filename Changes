@@ -1,5 +1,8 @@
 {{$NEXT}}
 
+0.14  2014-01-11 11:17:24 PST
+        twitter JSON gone, extract tweets with HTML instead
+
 0.13  2013-06-24 10:35:08 PDT
         remove vim tip check from test
         add one liner to POD
